@@ -13,7 +13,7 @@
 
                 <div class="col-md-6 content">
                     <span>about us</span>
-                    <h3>Save Your Time Make Appointment Online</h3>
+                    <h3>Save Your Time Discover Trips Online</h3>
                     <p>Samle tex.Lorem ipsum dolorsit amet,
                         consectetur adipiscing nullam nunc
                         justo suscipit ultrices Samle tex.Lorem ipsum dolorsit amet,

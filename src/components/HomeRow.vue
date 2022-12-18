@@ -9,10 +9,11 @@
 
                 <div class="content text-center text-md-left">
 
-                    <h3>Healthy Teeth With Us!</h3>
+                    <h3>Small Team With Big Ideas</h3>
                     <p>Sample text. Cilck to select the text box.
                         Click again or double click to start editing the tex</p>
-                    <a href="#contact" class="link-btn">Make appointment</a>
+                    <router-link to="/uzb" class="link-btn mr-4">From UZBEKISTAN</router-link>
+                    <router-link to="/world" class="link-btn">From WORLD</router-link>
 
                 </div>
 

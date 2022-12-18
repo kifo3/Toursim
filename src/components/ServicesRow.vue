@@ -9,21 +9,21 @@
 
             <div class="box">
                 <img src="../img/icon-1.svg">
-                <h3>Alignment specialist</h3>
+                <h3>Travel around the world</h3>
                 <p>Samle tex.Lorem ipsum dolorsit amet,
                     consectetur adipiscing</p>
             </div>
 
             <div class="box">
                 <img src="../img/icon-2.svg">
-                <h3>Cosmetic Dentistry</h3>
+                <h3>Hotels</h3>
                 <p>Samle tex.Lorem ipsum dolorsit amet,
                     consectetur adipiscing</p>
             </div>
 
             <div class="box">
                 <img src="../img/icon-3.svg">
-                <h3>Oral Mygiene Experts</h3>
+                <h3>Excursion through the mountains</h3>
                 <p>Samle tex.Lorem ipsum dolorsit amet,
                     consectetur adipiscing</p>
             </div>
@@ -37,14 +37,14 @@
 
             <div class="box">
                 <img src="../img/icon-5.svg">
-                <h3>Live Dental Advisory</h3>
+                <h3>Picture galleries</h3>
                 <p>Samle tex.Lorem ipsum dolorsit amet,
                     consectetur adipiscing</p>
             </div>
 
             <div class="box">
                 <img src="../img/icon-6.svg">
-                <h3>Cavity Inspection</h3>
+                <h3>Road map</h3>
                 <p>Samle tex.Lorem ipsum dolorsit amet,
                     consectetur adipiscing</p>
             </div>
@@ -64,5 +64,7 @@ export default {
 </script>
 
 <style scoped>
-
+p {
+    color: #1b1b1b;
+}
 </style>

@@ -6,7 +6,7 @@
 
             <div class="row align-items-center justify-content-between">
 
-                <a href="#home" class="logo">Dental<span>Center</span></a>
+                <a href="#home" class="logo"><span>Tours and Travel</span></a>
 
                 <nav class="nav">
                     <a href="#home">Home</a>
@@ -16,7 +16,10 @@
                     <a href="#contact">Contact</a>
                 </nav>
 
-                <a href="#contact" class="link-btn">Make appointment</a>
+
+                <router-link to="/login" class="link-btn">Log in</router-link>
+
+
 
                 <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -29,9 +32,8 @@
 </template>
 
 <script>
-export default {
-    name: "HeaderRow"
-}
+
+
 </script>
 
 <style scoped>

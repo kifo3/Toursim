@@ -1,65 +1,40 @@
 <template>
- <!-- header -->
-    <HeaderRow/>
-
-    <!-- home -->
-    <HomeRow/>
-
-    <!--about -->
-    <AboutRow/>
-
-    <!-- services -->
-    <ServicesRow/>
-
-    <!-- click -->
-    <ClickRow/>
-
-    <!-- reviews -->
-    <ReviewRow/>
-
-    <!-- contact -->
-    <ContactRow/>
-
-    <!-- footer -->
-    <FooterRow/>
+ <router-view />
 
 </template>
 
 <script>
 
 
-import HeaderRow from "@/components/HeaderRow";
-import AboutRow from "@/components/AboutRow";
-import HomeRow from "@/components/HomeRow";
-import ServicesRow from "@/components/ServicesRow";
-import ClickRow from "@/components/ClickRow";
-import ReviewRow from "@/components/ReviewRow";
-import ContactRow from "@/components/ContactRow";
-import FooterRow from "@/components/FooterRow";
 export default {
   name: 'App',
   components: {
-      FooterRow,
-      ContactRow,
-      ReviewRow,
-      ClickRow,
-      ServicesRow,
-      HomeRow,
-      AboutRow,
-      HeaderRow
 
   }
 }
 </script>
+import { ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, DragAndDrop, Resize, ViewsDirective, ViewDirective, ResourcesDirective, ResourceDirective } from "@syncfusion/ej2-vue-schedule";
 
 <style>
+
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-vue-schedule/styles/material.css';
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
 
 :root{
-    --blue: #7ED5F7;
-    --black: #0A357D;
+    --blue: #5ed1fc;
+    --black: #1662e1;
     --white: #fff;
-    --light-color: #666;
+    --light-color: #000;
     --light-bg: #f0f1f3;
     --border: .2rem solid rgba(0,0,0,.1);
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -93,6 +68,8 @@ html{
     scroll-padding-top: 6.5rem;
 }
 
+
+
 section {
     padding: 7rem 2rem;
 }
@@ -124,6 +101,7 @@ section {
 .header{
     padding: 2rem;
     border-bottom: var(--border);
+    background-color: white;
 }
 
 .header.active {
@@ -291,6 +269,7 @@ section {
     font-size: 1.5rem;
 }
 
+
 .contact form{
     border-radius: .5rem;
     background-color: var(--light-bg);
@@ -377,13 +356,13 @@ section {
 
 
 button.click-1.align-items-center.justify-content-between{
-    width: 111rem;
+    width: 105rem;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
 }
 
 button.click-2.align-items-center.justify-content-between{
-    width: 111rem;
+    width: 105rem;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
@@ -401,7 +380,7 @@ button.click-2.align-items-center.justify-content-between{
     color: var(--white);
     display: inline;
     text-align: left;
-    margin: 0 36rem 0 0;
+    margin: 0 25rem 0 0;
 }
 
 .click .click-1 a{
@@ -418,7 +397,7 @@ button.click-2.align-items-center.justify-content-between{
     display: inline;
     color: rgba(0, 0, 0, 0.82);
     text-align: left;
-    margin: 0 0 0 28rem;
+    margin: 0 0 0 16rem;
 }
 
 .click .click-2 a{
@@ -478,11 +457,11 @@ button.click-2.align-items-center.justify-content-between{
 
 
     button.click-1.align-items-center.justify-content-between{
-        width: 90rem;
+        width: 87rem;
     }
 
     button.click-2.align-items-center.justify-content-between{
-        width: 90rem;
+        width:87rem;
 
     }
 
@@ -699,5 +678,26 @@ button.click-2.align-items-center.justify-content-between{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </style>
