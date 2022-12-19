@@ -8,7 +8,10 @@
             <div class="row align-items-center">
 
                 <div class="col-md-6 image">
-                    <img src="../img/11.jpg" alt="" class="w-100 mb-5 mb-md-0">
+<!--                    <img src="../img/11.jpg" alt="" class="w-100 mb-5 mb-md-0">-->
+                    <video controls>
+                        <source src="https://youtu.be/xiJVQZmLaHE">
+                    </video>
                 </div>
 
                 <div class="col-md-6 content">

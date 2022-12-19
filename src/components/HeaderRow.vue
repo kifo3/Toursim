@@ -17,7 +17,7 @@
                 </nav>
 
 
-                <router-link to="/login" class="link-btn">Log in</router-link>
+<!--                <router-link to="/login" class="link-btn">Log in</router-link>-->
 
 
 
